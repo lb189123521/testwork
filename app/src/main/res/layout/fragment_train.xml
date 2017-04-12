@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_high"
+        android:background="@color/theme_color"
+        android:paddingRight="@dimen/pd"
+        android:paddingLeft="@dimen/pd"
+        >
+        <TextView
+            android:text="培训机构"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            />
+        <ImageView
+            android:id="@+id/train_search"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/ic_launcher"
+            />
+    </RelativeLayout>
+    <com.youth.banner.Banner
+        android:id="@+id/train_banner"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+       app:indicator_width="10dp"
+        app:indicator_height="10dp"
+        />
+
+    <ListView
+        android:id="@+id/train_lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp"
+        android:divider="@color/bgc"
+        ></ListView>
+</LinearLayout>

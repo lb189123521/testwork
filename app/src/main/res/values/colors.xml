@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- 项目主题颜色-->
+    <color name="theme_color">#FE6055</color>
+    <!-- 背景颜色-->
+    <color name="bgc">#F3F4F8</color>
+    <!-- 分割线-->
+    <color name="line">#E4E4E4</color>
+    <!--text 颜色 -->
+    <color name="text_color">#2E2E2E</color>
+    <color name="text_color1">#A1A1A1</color>
+
+</resources>
